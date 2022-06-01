@@ -1,3 +1,6 @@
+Use this as a template for questions that need multiple inputs from the user 
+
+```javascript
 const readline = require("readline").createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -27,3 +30,4 @@ async function main() {
 }
 
 main();
+```
